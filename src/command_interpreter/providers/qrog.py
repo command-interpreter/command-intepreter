@@ -39,7 +39,7 @@ def respond(messages=None, instructions=None, **kwargs):
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}",
-        "User-Agent": "Name-of-the-Machine"
+        "User-Agent": "Command-Interpreter"
     }
 
     # Create the Request object

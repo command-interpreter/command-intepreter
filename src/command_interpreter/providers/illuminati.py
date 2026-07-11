@@ -18,7 +18,7 @@ default_model = environ.get('FIREWORKS_MODEL','accounts/fireworks/models/gpt-oss
 headers = {
     "Content-Type": "application/json",
     "Authorization": "Bearer " + api_key,
-    "User-Agent": "Name-of-the-Machine"
+    "User-Agent": "Command-Interpreter"
 }
 
 

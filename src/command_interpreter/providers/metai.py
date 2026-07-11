@@ -19,7 +19,7 @@ api_base = environ.get("METAI_API_BASE", "https://api.meta.ai/v1")
 headers = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {api_key}",
-    "User-Agent": "Name-of-the-Machine"
+    "User-Agent": "Command-Interpreter"
 }
 
 

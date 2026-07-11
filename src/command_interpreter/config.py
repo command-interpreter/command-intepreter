@@ -16,8 +16,8 @@ class Config:
     github_email: str               = field(default_factory=lambda: environ.get('GITHUB_EMAIL', ''))
     provider_api_key: str           = field(default_factory=lambda: environ.get('PROVIDER_API_KEY', ''))
     provider: str                   = field(default_factory=lambda: environ.get('PROVIDER', ''))
-    machine_organization_name: str  = field(default_factory=lambda: environ.get('MACHINE_ORGANIZATION_NAME', 'name-of-the-machine'))
-    private_repo_with_text: str     = field(default_factory=lambda: environ.get('PRIVATE_REPO_WITH_TEXT','name_of_the_machine'))
+    machine_organization_name: str  = field(default_factory=lambda: environ.get('MACHINE_ORGANIZATION_NAME', 'command-interpreter'))
+    private_repo_with_text: str     = field(default_factory=lambda: environ.get('PRIVATE_REPO_WITH_TEXT','command_interpreter'))
     system_prompt_file: str         = field(default_factory=lambda: environ.get('SYSTEM_PROMPT_FILE', 'machina.yaml'))
     name: str                       = ''
     instructions: str               = ''
